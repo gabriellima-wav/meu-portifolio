@@ -1,54 +1,85 @@
-# React + TypeScript + Vite
+# Portfólio Pessoal - Desenvolvedor Front-end
+Este é meu portfólio pessoal desenvolvido para apresentar de forma profissional minhas habilidades, projetos e informações de contato, com design moderno, clean e funcional.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Visão Geral
+Meu portfólio foi criado para servir como uma vitrine digital das minhas competências como desenvolvedor front-end, permitindo que potenciais clientes e recrutadores conheçam meu trabalho através de uma experiência de navegação fluida e agradável.
 
-Currently, two official plugins are available:
+🛠️ Tecnologias Utilizadas
+React — Biblioteca JavaScript para construção de interfaces
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Vite — Build tool e servidor de desenvolvimento
 
-## Expanding the ESLint configuration
+TypeScript — Superset tipado de JavaScript
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Tailwind CSS — Framework CSS utilitário
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+MUI (Material UI) — Biblioteca de componentes React
+
+Vercel — Plataforma para deploy e hospedagem
+
+## 📁 Estrutura do Projeto
+```
+src/
+├── assets/ # Imagens, ícones e recursos estáticos
+├── components/ # Componentes reutilizáveis
+│ ├── ui/ # Componentes de interface (botões, cards, etc)
+│ ├── sections/ # Seções específicas das páginas
+│ └── common/ # Componentes comuns (header, footer, etc)
+├── hooks/ # Custom hooks React
+├── layout/ # Layouts e wrappers de página
+├── pages/ # Páginas principais
+│ ├── Home/ # Página inicial
+│ ├── About/ # Sobre mim
+│ ├── Projects/ # Meus projetos
+│ └── Contact/ # Contato
+├── types/ # Definições de tipos TypeScript
+├── utils/ # Funções utilitárias
+├── App.tsx # Configuração de rotas
+└── main.tsx # Ponto de entrada da aplicação
+...
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+🧭 Navegação
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+/ – Página inicial com apresentação e destaques
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+/about – Informações sobre minha trajetória e habilidades técnicas
+
+/projects – Galeria dos meus principais projetos com descrições e links
+
+/contact – Formulário de contato e informações para conexão
+
+🎯 Objetivos
+Criar uma experiência de usuário intuitiva e agradável
+
+Demonstrar minhas habilidades técnicas através do próprio código do portfólio
+
+Apresentar projetos relevantes com detalhes sobre tecnologias utilizadas
+
+Garantir design responsivo para perfeita visualização em todos os dispositivos
+
+Otimizar performance e acessibilidade
+
+🚀 Como executar o projeto
+bash
+
+# Clone este repositório
+
+git clone https://github.com/seu-usuario/seu-portfolio.git
+
+# Acesse a pasta do projeto
+
+cd seu-portfolio
+
+# Instale as dependências
+
+npm install
+
+# Execute a aplicação em modo de desenvolvimento
+
+npm run dev
+
+# A aplicação será aberta na porta:5173 - acesse http://localhost:5173
+
+📱 Responsividade
+O portfólio foi desenvolvido seguindo o conceito de Mobile First, garantindo uma experiência otimizada em dispositivos de diferentes tamanhos, desde smartphones até desktops.
