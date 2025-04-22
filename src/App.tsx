@@ -1,11 +1,15 @@
-function App() {
-  return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-radial text-center p-8">
-      <h1 className="text-3xl font-bold text-maize">
-        Portfólio em construção 🚀
-      </h1>
-    </div>
-  )
-}
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import HomePage from "./pages/home/homePage";
 
-export default App
+const App: React.FC = () => {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+      </Routes>
+    </BrowserRouter>
+  );
+};
+
+export default App;

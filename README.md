@@ -36,7 +36,6 @@ src/
 ├── utils/ # Funções utilitárias
 ├── App.tsx # Configuração de rotas
 └── main.tsx # Ponto de entrada da aplicação
-...
 ```
 
 🧭 Navegação
