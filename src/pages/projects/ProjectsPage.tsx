@@ -18,7 +18,7 @@ const ProjectsPage: React.FC = () => (
         {projects.map((project, index) => (
           <div
             key={index}
-            className="bg-gray-50 rounded-xl shadow-md p-6 text-left border border-cyan-600 flex flex-col justify-between"
+            className="bg-gray-50 rounded-xl shadow-md p-6 text-left border border-cyan-600 flex flex-col justify-between transition-transform duration-300 transform hover:scale-105"
           >
             <div>
               {project.image && (

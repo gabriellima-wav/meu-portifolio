@@ -18,7 +18,7 @@ const Timeline: React.FC = () => (
           >
             {/* Card */}
             <div className="md:w-1/2 px-4 flex justify-center">
-              <div className="bg-white rounded-2xl shadow-md p-6 text-center border border-blue-100">
+              <div className="bg-white rounded-2xl shadow-md p-6 text-center border border-blue-100 transition-transform duration-300 transform hover:scale-105">
                 <h3 className="text-xl font-bold text-blue-900">
                   {event.year} — {event.title}
                 </h3>

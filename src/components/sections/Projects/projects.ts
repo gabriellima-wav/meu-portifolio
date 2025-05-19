@@ -15,4 +15,12 @@ export const projects = [
     techs: ["React", "TypeScript", "Vite" ,"MUI Material", "Firebase"],
     image: "agendeja.png",
   },
+  {
+    title: "Simple Task",
+    description: "Projeto voltado para agendamento de consultas de forma simples e fácil.",
+    link: "https://github.com/gabriellima-wav/simpleTask",
+    demo: "https://simple-task-virid.vercel.app/",
+    techs: ["React", "TypeScript", "MUI Material","Tailwind" ],
+    image: "simple_task.png",
+  },
 ];
