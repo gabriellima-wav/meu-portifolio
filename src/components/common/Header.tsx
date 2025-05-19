@@ -6,7 +6,7 @@ const Header: React.FC = () => (
     <nav className="max-w-4xl mx-auto flex items-center justify-between px-6 py-3">
       {/* Logo ou Nome */}
       <a href="#home" className="text-blue-900 font-bold text-xl tracking-tight hover:text-cyan-600 transition">
-        Gabriel
+        Início
       </a>
       {/* Navegação */}
       <ul className="flex gap-6">

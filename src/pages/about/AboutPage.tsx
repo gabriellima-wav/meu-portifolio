@@ -1,17 +1,15 @@
 import React from "react";
+import Timeline from "../../components/sections/TimeLine";
 
 const AboutPage: React.FC = () => (
   <section
     id="about"
-    className="min-h-screen flex flex-col justify-center items-center p-8 text-center bg-gray-50"
+    className="min-h-screen flex flex-col items-center p-8 bg-gray-50"
   >
-    <div className="max-w-3xl bg-white rounded-3xl shadow-xl p-8">
-      <h2 className="text-3xl font-bold text-blue-900 mb-4">Sobre Mim</h2>
-      <p className="text-blue-900/90 text-lg">
-        Aqui você pode colocar informações sobre sua trajetória, habilidades
-        técnicas e experiência profissional.
-      </p>
-    </div>
+    <h2 className="text-3xl font-bold text-blue-900 text-center mb-10">
+      Minha Trajetória
+    </h2>
+    <Timeline />
   </section>
 );
 
