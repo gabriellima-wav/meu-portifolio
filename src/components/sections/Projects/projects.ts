@@ -17,7 +17,7 @@ export const projects = [
   },
   {
     title: "Simple Task",
-    description: "Projeto voltado para agendamento de consultas de forma simples e fácil.",
+    description: "Projeto para gerenciar tarefas de forma simples usando cards.",
     link: "https://github.com/gabriellima-wav/simpleTask",
     demo: "https://simple-task-virid.vercel.app/",
     techs: ["React", "TypeScript", "MUI Material","Tailwind" ],
